@@ -1,0 +1,19 @@
+{
+	"Collection": [
+		"I_RetsMgmtProcgStatus"
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "RetsMgmtProcessingStatus",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "RetsMgmtProcessingStatus_Text",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/BasicMDKApp/Services/BirlasoftS17.service",
+	"_Name": "I_RetsMgmtProcgStatusType"
+}

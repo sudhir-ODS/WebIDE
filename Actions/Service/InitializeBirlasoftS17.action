@@ -1,0 +1,14 @@
+{
+	"ActionResult": {
+		"_Name": "init"
+	},
+	"DefiningRequests": [
+		{
+			"AutomaticallyRetrievesStreams": false,
+			"Name": "C_BillingDocument_F2187",
+			"Query": "C_BillingDocument_F2187"
+		}
+	],
+	"Service": "/BasicMDKApp/Services/BirlasoftS17.service",
+	"_Type": "Action.Type.OfflineOData.Initialize"
+}

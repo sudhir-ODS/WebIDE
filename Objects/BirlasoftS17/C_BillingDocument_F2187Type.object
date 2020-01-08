@@ -1,0 +1,136 @@
+{
+	"Collection": [
+		"C_BillingDocument_F2187"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "to_BillingDocumentType",
+			"_Type": "I_BillingDocumentTypeType"
+		},
+		{
+			"Key": false,
+			"_Name": "to_DistributionChannel",
+			"_Type": "I_DistributionChannelType"
+		},
+		{
+			"Key": false,
+			"_Name": "to_Division",
+			"_Type": "I_DivisionType"
+		},
+		{
+			"Key": false,
+			"_Name": "to_OverallBillingStatus",
+			"_Type": "I_OverallBillingStatusType"
+		},
+		{
+			"Key": false,
+			"_Name": "to_PayerParty",
+			"_Type": "I_CustomerType"
+		},
+		{
+			"Key": false,
+			"_Name": "to_SalesOrganization",
+			"_Type": "I_SalesOrganizationType"
+		},
+		{
+			"Key": false,
+			"_Name": "to_SDDocumentCategory",
+			"_Type": "I_SDDocumentCategoryType"
+		},
+		{
+			"Key": false,
+			"_Name": "to_SoldToParty",
+			"_Type": "I_CustomerType"
+		},
+		{
+			"Key": false,
+			"_Name": "to_TransactionCurrency",
+			"_Type": "I_CurrencyType"
+		}
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "BillingDocument",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "BillingDocumentType",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "OverallBillingStatus",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "BillingDocumentDate",
+			"_Type": "Edm.DateTime"
+		},
+		{
+			"Key": false,
+			"_Name": "TotalNetAmount",
+			"_Type": "Edm.Decimal"
+		},
+		{
+			"Key": false,
+			"_Name": "PayerParty",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "SoldToParty",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "TaxAmount",
+			"_Type": "Edm.Decimal"
+		},
+		{
+			"Key": false,
+			"_Name": "TotalGrossAmount",
+			"_Type": "Edm.Decimal"
+		},
+		{
+			"Key": false,
+			"_Name": "TransactionCurrency",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "SDDocumentCategory",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CompanyCode",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CompanyCode_Text",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "SalesOrganization",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "DistributionChannel",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Division",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/BasicMDKApp/Services/BirlasoftS17.service",
+	"_Name": "C_BillingDocument_F2187Type"
+}

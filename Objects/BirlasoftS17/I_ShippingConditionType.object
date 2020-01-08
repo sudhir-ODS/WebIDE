@@ -1,0 +1,19 @@
+{
+	"Collection": [
+		"I_ShippingCondition"
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "ShippingCondition",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ShippingCondition_Text",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/BasicMDKApp/Services/BirlasoftS17.service",
+	"_Name": "I_ShippingConditionType"
+}

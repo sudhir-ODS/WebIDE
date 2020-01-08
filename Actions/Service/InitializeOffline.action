@@ -1,0 +1,11 @@
+{
+	"ActionResult": {
+		"_Name": "init"
+	},
+	"ActivityIndicatorText": "DownLoading...",
+	"OnFailure": "/BasicMDKApp/Actions/Service/InitializeOfflineFailureMessage.action",
+	"OnSuccess": "/BasicMDKApp/Actions/Service/InitializeOfflineSuccessMessage.action",
+	"Service": "/BasicMDKApp/Services/MDPAppService.service",
+	"ShowActivityIndicator": true,
+	"_Type": "Action.Type.OfflineOData.Initialize"
+}

@@ -1,0 +1,24 @@
+{
+	"Collection": [
+		"I_DeliveryBlockReason"
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "DeliveryBlockReason",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "DeliveryBlockReason_Text",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "DeliveryDueListBlock",
+			"_Type": "Edm.Boolean"
+		}
+	],
+	"Service": "/BasicMDKApp/Services/BirlasoftS17.service",
+	"_Name": "I_DeliveryBlockReasonType"
+}

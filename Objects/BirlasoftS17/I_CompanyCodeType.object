@@ -1,0 +1,124 @@
+{
+	"Collection": [
+		"I_CompanyCode"
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "CompanyCode",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CompanyCodeName",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CityName",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Country",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Currency",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Language",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ChartOfAccounts",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "FiscalYearVariant",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Company",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CreditControlArea",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CreditControlArea_Text",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CountryChartOfAccounts",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "FinancialManagementArea",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "AddressID",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "TaxableEntity",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "VATRegistration",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ExtendedWhldgTaxIsActive",
+			"_Type": "Edm.Boolean"
+		},
+		{
+			"Key": false,
+			"_Name": "ControllingArea",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ControllingArea_Text",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "FieldStatusVariant",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "NonTaxableTransactionTaxCode",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "DocDateIsUsedForTaxDetn",
+			"_Type": "Edm.Boolean"
+		},
+		{
+			"Key": false,
+			"_Name": "TaxRptgDateIsActive",
+			"_Type": "Edm.Boolean"
+		}
+	],
+	"Service": "/BasicMDKApp/Services/BirlasoftS17.service",
+	"_Name": "I_CompanyCodeType"
+}

@@ -1,0 +1,64 @@
+{
+	"Collection": [
+		"I_BusinessPartnerVH"
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "BusinessPartner",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "FormOfAddress",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "FormOfAddressName",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "FirstName",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "LastName",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "BirthDate",
+			"_Type": "Edm.DateTime"
+		},
+		{
+			"Key": false,
+			"_Name": "BusinessPartnerCategory",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "BusinessPartnerIDByExtSystem",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "BusinessPartnerName",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "AuthorizationGroup",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "IsBusinessPurposeCompleted",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/BasicMDKApp/Services/BirlasoftS17.service",
+	"_Name": "I_BusinessPartnerVHType"
+}

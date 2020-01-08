@@ -1,0 +1,19 @@
+{
+	"Collection": [
+		"C_DebitMemoRequestTypeVH_F1988"
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "DebitMemoRequestType",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "DebitMemoRequestType_Text",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/BasicMDKApp/Services/BirlasoftS17.service",
+	"_Name": "C_DebitMemoRequestTypeVH_F1988Type"
+}

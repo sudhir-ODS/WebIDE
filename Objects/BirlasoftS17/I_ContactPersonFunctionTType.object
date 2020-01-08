@@ -1,0 +1,24 @@
+{
+	"Collection": [
+		"I_ContactPersonFunctionT"
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "ContactPersonFunction",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "Language",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ContactPersonFunctionName",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/BasicMDKApp/Services/BirlasoftS17.service",
+	"_Name": "I_ContactPersonFunctionTType"
+}

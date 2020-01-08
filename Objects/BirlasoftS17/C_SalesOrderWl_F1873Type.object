@@ -1,0 +1,236 @@
+{
+	"Collection": [
+		"C_SalesOrderWl_F1873"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "to_CreatedByUser",
+			"_Type": "C_SalesDocumentUserVHType"
+		},
+		{
+			"Key": false,
+			"_Name": "to_DeliveryBlockReason",
+			"_Type": "I_DeliveryBlockReasonType"
+		},
+		{
+			"Key": false,
+			"_Name": "to_DistributionChannel",
+			"_Type": "C_DischannelvaluehelpType"
+		},
+		{
+			"Key": false,
+			"_Name": "to_Division",
+			"_Type": "C_OrgDivisionValueHelpType"
+		},
+		{
+			"Key": false,
+			"_Name": "to_HeaderBillingBlockReason",
+			"_Type": "I_BillingBlockReasonType"
+		},
+		{
+			"Key": false,
+			"_Name": "to_LastChangedByUser",
+			"_Type": "C_SalesDocumentUserVHType"
+		},
+		{
+			"Key": false,
+			"_Name": "to_OrganizationDivision",
+			"_Type": "I_DivisionType"
+		},
+		{
+			"Key": false,
+			"_Name": "to_OverallBillingBlockStatus",
+			"_Type": "I_OverallBillingBlockStatusType"
+		},
+		{
+			"Key": false,
+			"_Name": "to_OverallSDDocumentRejectionSts",
+			"_Type": "I_OverallSDDocumentRjcnStatusType"
+		},
+		{
+			"Key": false,
+			"_Name": "to_OverallSDProcessStatus",
+			"_Type": "I_OverallSDProcessStatusType"
+		},
+		{
+			"Key": false,
+			"_Name": "to_SalesDocumentType",
+			"_Type": "C_SalesOrderTypeVH_F1873Type"
+		},
+		{
+			"Key": false,
+			"_Name": "to_SalesGroup",
+			"_Type": "C_SalesGroupValueHelpType"
+		},
+		{
+			"Key": false,
+			"_Name": "to_SalesOffice",
+			"_Type": "C_SalesOfficeValueHelpType"
+		},
+		{
+			"Key": false,
+			"_Name": "to_SalesOrganization",
+			"_Type": "I_SalesOrganizationType"
+		},
+		{
+			"Key": false,
+			"_Name": "to_SDDocumentReason",
+			"_Type": "I_SDDocumentReasonType"
+		},
+		{
+			"Key": false,
+			"_Name": "to_SoldToParty",
+			"_Type": "C_SoldToValueHelpType"
+		},
+		{
+			"Key": false,
+			"_Name": "to_TransactionCurrency",
+			"_Type": "I_CurrencyType"
+		}
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "SalesOrder",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "SoldToParty",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PurchaseOrderByCustomer",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "RequestedDeliveryDate",
+			"_Type": "Edm.DateTime"
+		},
+		{
+			"Key": false,
+			"_Name": "OverallSDProcessStatus",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "OverallSDDocumentRejectionSts",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "OverallBillingBlockStatus",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "TransactionCurrency",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "TotalNetAmount",
+			"_Type": "Edm.Decimal"
+		},
+		{
+			"Key": false,
+			"_Name": "SalesOrderDate",
+			"_Type": "Edm.DateTime"
+		},
+		{
+			"Key": false,
+			"_Name": "SalesOrderType",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "LastChangeDate",
+			"_Type": "Edm.DateTime"
+		},
+		{
+			"Key": false,
+			"_Name": "LastChangeDateTime",
+			"_Type": "Edm.DateTimeOffset"
+		},
+		{
+			"Key": false,
+			"_Name": "CreatedByUser",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "LastChangedByUser",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "SalesOrganization",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "DistributionChannel",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "OrganizationDivision",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "SalesOffice",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "SalesGroup",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CreationDate",
+			"_Type": "Edm.DateTime"
+		},
+		{
+			"Key": false,
+			"_Name": "ReferenceSDDocument",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "SDDocumentReason",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "DeliveryBlockReason",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "HeaderBillingBlockReason",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "SalesDocumentRjcnReason",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "OrganizationBPName1",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "OrganizationBPName2",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/BasicMDKApp/Services/BirlasoftS17.service",
+	"_Name": "C_SalesOrderWl_F1873Type"
+}

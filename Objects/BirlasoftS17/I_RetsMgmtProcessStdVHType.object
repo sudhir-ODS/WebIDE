@@ -1,0 +1,14 @@
+{
+	"Collection": [
+		"I_RetsMgmtProcessStdVH"
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "RetsMgmtProcess",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/BasicMDKApp/Services/BirlasoftS17.service",
+	"_Name": "I_RetsMgmtProcessStdVHType"
+}

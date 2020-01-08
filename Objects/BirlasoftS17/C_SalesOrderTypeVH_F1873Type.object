@@ -1,0 +1,19 @@
+{
+	"Collection": [
+		"C_SalesOrderTypeVH_F1873"
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "SalesDocumentType",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "SalesDocumentType_Text",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/BasicMDKApp/Services/BirlasoftS17.service",
+	"_Name": "C_SalesOrderTypeVH_F1873Type"
+}

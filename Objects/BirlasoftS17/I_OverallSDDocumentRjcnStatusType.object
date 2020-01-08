@@ -1,0 +1,19 @@
+{
+	"Collection": [
+		"I_OverallSDDocumentRjcnStatus"
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "OverallSDDocumentRejectionSts",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "OverallSDDocumentRejectionSts_Text",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/BasicMDKApp/Services/BirlasoftS17.service",
+	"_Name": "I_OverallSDDocumentRjcnStatusType"
+}

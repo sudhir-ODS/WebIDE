@@ -1,0 +1,39 @@
+{
+	"Collection": [
+		"I_Currency"
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "Currency",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Currency_Text",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Decimals",
+			"_Type": "Edm.Byte"
+		},
+		{
+			"Key": false,
+			"_Name": "CurrencyISOCode",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "AlternativeCurrencyKey",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "IsPrimaryCurrencyForISOCrcy",
+			"_Type": "Edm.Boolean"
+		}
+	],
+	"Service": "/BasicMDKApp/Services/BirlasoftS17.service",
+	"_Name": "I_CurrencyType"
+}

@@ -1,0 +1,9 @@
+{
+	"Service": "/BasicMDKApp/Services/MDPAppService.service",
+	"_Type": "Action.Type.OfflineOData.Upload",
+	"ActionResult": {
+		"_Name": "sync"
+	},
+	"OnSuccess": "/BasicMDKApp/Actions/Service/DownloadOffline.action",
+	"OnFailure": "/BasicMDKApp/Actions/Service/SyncFailureMessage.action"
+}

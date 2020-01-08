@@ -1,0 +1,29 @@
+{
+	"Collection": [
+		"I_CustomerProjectItem"
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "CustomerProject",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "CustomerProjectItemType",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "CustomerProjectItem",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CustomerProjectUUID",
+			"_Type": "Edm.Guid"
+		}
+	],
+	"Service": "/BasicMDKApp/Services/BirlasoftS17.service",
+	"_Name": "I_CustomerProjectItemType"
+}

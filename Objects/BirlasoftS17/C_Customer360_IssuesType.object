@@ -1,0 +1,86 @@
+{
+	"Collection": [
+		"C_Customer360_Issues"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "to_TransactionCurrency",
+			"_Type": "I_CurrencyType"
+		}
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "SalesOrder",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "IssueCategoryName",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "DueDays",
+			"_Type": "Edm.Int32"
+		},
+		{
+			"Key": false,
+			"_Name": "DueDateCriticality",
+			"_Type": "Edm.Byte"
+		},
+		{
+			"Key": false,
+			"_Name": "NmbrOfAllIssues",
+			"_Type": "Edm.Int32"
+		},
+		{
+			"Key": false,
+			"_Name": "SoldToParty",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PurchaseOrderByCustomer",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "TotalNetAmount",
+			"_Type": "Edm.Decimal"
+		},
+		{
+			"Key": false,
+			"_Name": "TransactionCurrency",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "RequestedDeliveryDate",
+			"_Type": "Edm.DateTime"
+		},
+		{
+			"Key": false,
+			"_Name": "SalesOrderType",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "SalesOrganization",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "DistributionChannel",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "OrganizationDivision",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/BasicMDKApp/Services/BirlasoftS17.service",
+	"_Name": "C_Customer360_IssuesType"
+}

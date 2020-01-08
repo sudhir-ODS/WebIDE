@@ -1,0 +1,156 @@
+{
+	"Collection": [
+		"C_Customer360_Salesarea"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "to_Customer360",
+			"_Type": "C_Customer360_F2187Type"
+		},
+		{
+			"Key": false,
+			"_Name": "to_CustomerGroup",
+			"_Type": "I_CustomerGroupType"
+		},
+		{
+			"Key": false,
+			"_Name": "to_CustomerPaymentTerms",
+			"_Type": "I_CustomerPaymentTermsType"
+		},
+		{
+			"Key": false,
+			"_Name": "to_CustomerPriceGroup",
+			"_Type": "I_CustomerPriceGroupType"
+		},
+		{
+			"Key": false,
+			"_Name": "to_DeliveryPriority",
+			"_Type": "I_DeliveryPriorityType"
+		},
+		{
+			"Key": false,
+			"_Name": "to_DistributionChannel",
+			"_Type": "I_DistributionChannelType"
+		},
+		{
+			"Key": false,
+			"_Name": "to_Division",
+			"_Type": "I_DivisionType"
+		},
+		{
+			"Key": false,
+			"_Name": "to_PriceListType",
+			"_Type": "I_PriceListTypeType"
+		},
+		{
+			"Key": false,
+			"_Name": "to_SalesOrganization",
+			"_Type": "I_SalesOrganizationType"
+		},
+		{
+			"Key": false,
+			"_Name": "to_ShippingCondition",
+			"_Type": "I_ShippingConditionType"
+		}
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "Customer",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "SalesOrganization",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "DistributionChannel",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "Division",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "SalesArea",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CustomerName",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "AuthorizationGroup",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CustomerAccountGroup",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CustomerGroup",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ItemOrderProbabilityInPercent",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CustomerPriceGroup",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PriceListType",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "DeliveryPriority",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ShippingCondition",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "OrderCombinationIsAllowed",
+			"_Type": "Edm.Boolean"
+		},
+		{
+			"Key": false,
+			"_Name": "IncotermsClassification",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "IncotermsTransferLocation",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "IncotermsLocation2",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CustomerPaymentTerms",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/BasicMDKApp/Services/BirlasoftS17.service",
+	"_Name": "C_Customer360_SalesareaType"
+}

@@ -1,0 +1,19 @@
+{
+	"Collection": [
+		"I_SDDocumentCategory"
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "SDDocumentCategory",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "SDDocumentCategory_Text",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/BasicMDKApp/Services/BirlasoftS17.service",
+	"_Name": "I_SDDocumentCategoryType"
+}

@@ -1,0 +1,59 @@
+{
+	"Collection": [
+		"C_SoldToValueHelp"
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "Customer",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CustomerName",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "OrganizationBPName1",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "OrganizationBPName2",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "BusinessPartnerImageURL",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PostalCode",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CityName",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Country",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "InternationalPhoneNumber",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "EmailAddress",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/BasicMDKApp/Services/BirlasoftS17.service",
+	"_Name": "C_SoldToValueHelpType"
+}

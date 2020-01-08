@@ -1,0 +1,5 @@
+{
+	"AppId": "com.sl.mdk",
+	"DestinationName": "com.birlasoft.S17",
+	"ServiceUrl": "/destinations/mobileservices"
+}

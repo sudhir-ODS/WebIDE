@@ -1,0 +1,19 @@
+{
+	"Collection": [
+		"C_SalesDocumentUserVH"
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "UserID",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "UserDescription",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/BasicMDKApp/Services/BirlasoftS17.service",
+	"_Name": "C_SalesDocumentUserVHType"
+}

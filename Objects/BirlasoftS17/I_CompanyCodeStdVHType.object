@@ -1,0 +1,19 @@
+{
+	"Collection": [
+		"I_CompanyCodeStdVH"
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "CompanyCode",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CompanyCodeName",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/BasicMDKApp/Services/BirlasoftS17.service",
+	"_Name": "I_CompanyCodeStdVHType"
+}

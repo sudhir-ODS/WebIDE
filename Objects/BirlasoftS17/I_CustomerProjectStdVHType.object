@@ -1,0 +1,19 @@
+{
+	"Collection": [
+		"I_CustomerProjectStdVH"
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "CustomerProject",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CustomerProjectName",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/BasicMDKApp/Services/BirlasoftS17.service",
+	"_Name": "I_CustomerProjectStdVHType"
+}

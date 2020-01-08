@@ -1,0 +1,19 @@
+{
+	"Collection": [
+		"I_CustomerPaymentTerms"
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "CustomerPaymentTerms",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CustomerPaymentTerms_Text",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/BasicMDKApp/Services/BirlasoftS17.service",
+	"_Name": "I_CustomerPaymentTermsType"
+}

@@ -1,0 +1,19 @@
+{
+	"Collection": [
+		"I_SalesOffice"
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "SalesOffice",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "SalesOffice_Text",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/BasicMDKApp/Services/BirlasoftS17.service",
+	"_Name": "I_SalesOfficeType"
+}

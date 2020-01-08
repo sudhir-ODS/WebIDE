@@ -1,0 +1,24 @@
+{
+	"Collection": [
+		"C_SalesGroupValueHelp"
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "SalesOffice",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "SalesGroup",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "SalesGroup_Text",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/BasicMDKApp/Services/BirlasoftS17.service",
+	"_Name": "C_SalesGroupValueHelpType"
+}

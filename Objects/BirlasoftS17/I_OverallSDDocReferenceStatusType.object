@@ -1,0 +1,19 @@
+{
+	"Collection": [
+		"I_OverallSDDocReferenceStatus"
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "OverallSDDocReferenceStatus",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "OverallSDDocReferenceStatus_Text",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/BasicMDKApp/Services/BirlasoftS17.service",
+	"_Name": "I_OverallSDDocReferenceStatusType"
+}

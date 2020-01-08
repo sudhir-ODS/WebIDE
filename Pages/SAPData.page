@@ -1,0 +1,36 @@
+{
+	"Caption": "SAPData",
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"ObjectCell": {
+						"AccessoryType": "none",
+						"Description": "{CompanyCode_Text}",
+						"DetailImageIsCircular": false,
+						"Footnote": "{SoldToParty}",
+						"PreserveIconStackSpacing": true,
+						"Subhead": "{BillingDocument}",
+						"Title": "{BillingDocumentType}"
+					},
+					"Search": {
+						"Enabled": true
+					},
+					"Target": {
+						"EntitySet": "C_BillingDocument_F2187",
+						"QueryOptions": "",
+						"ReadLink": "",
+						"Service": "/BasicMDKApp/Services/BirlasoftS17.service"
+					},
+					"Visible": true,
+					"_Name": "SectionObjectTable0",
+					"_Type": "Section.Type.ObjectTable"
+				}
+			],
+			"_Name": "SectionedTable0",
+			"_Type": "Control.Type.SectionedTable"
+		}
+	],
+	"_Name": "SAPData",
+	"_Type": "Page"
+}

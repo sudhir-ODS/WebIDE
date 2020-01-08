@@ -1,0 +1,19 @@
+{
+	"Collection": [
+		"C_CreditMemoReqTypeVH_F1989"
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "CreditMemoRequestType",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CreditMemoRequestType_Text",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/BasicMDKApp/Services/BirlasoftS17.service",
+	"_Name": "C_CreditMemoReqTypeVH_F1989Type"
+}

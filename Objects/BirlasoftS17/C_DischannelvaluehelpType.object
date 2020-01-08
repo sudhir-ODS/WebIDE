@@ -1,0 +1,24 @@
+{
+	"Collection": [
+		"C_Dischannelvaluehelp"
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "SalesOrganization",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "DistributionChannel",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "DistributionChannel_Text",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/BasicMDKApp/Services/BirlasoftS17.service",
+	"_Name": "C_DischannelvaluehelpType"
+}

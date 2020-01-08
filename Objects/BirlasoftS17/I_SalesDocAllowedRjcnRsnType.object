@@ -1,0 +1,29 @@
+{
+	"Collection": [
+		"I_SalesDocAllowedRjcnRsn"
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "SalesOrganization",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "SalesDocumentType",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "SalesDocumentRjcnReason",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "SalesDocumentRjcnReason_Text",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/BasicMDKApp/Services/BirlasoftS17.service",
+	"_Name": "I_SalesDocAllowedRjcnRsnType"
+}

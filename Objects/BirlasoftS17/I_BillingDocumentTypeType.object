@@ -1,0 +1,29 @@
+{
+	"Collection": [
+		"I_BillingDocumentType"
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "BillingDocumentType",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "BillingDocumentType_Text",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "SDDocumentCategory",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "IncrementItemNumber",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/BasicMDKApp/Services/BirlasoftS17.service",
+	"_Name": "I_BillingDocumentTypeType"
+}

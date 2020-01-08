@@ -1,0 +1,156 @@
+{
+	"Collection": [
+		"C_Customer360_Returns"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "to_CreatedByUser",
+			"_Type": "C_SalesDocumentUserVHType"
+		},
+		{
+			"Key": false,
+			"_Name": "to_CustomerReturnType",
+			"_Type": "I_SalesDocumentTypeType"
+		},
+		{
+			"Key": false,
+			"_Name": "to_DistributionChannel",
+			"_Type": "I_DistributionChannelType"
+		},
+		{
+			"Key": false,
+			"_Name": "to_LastChangedByUser",
+			"_Type": "C_SalesDocumentUserVHType"
+		},
+		{
+			"Key": false,
+			"_Name": "to_OrganizationDivision",
+			"_Type": "I_DivisionType"
+		},
+		{
+			"Key": false,
+			"_Name": "to_OverallSDProcessStatus",
+			"_Type": "I_OverallSDProcessStatusType"
+		},
+		{
+			"Key": false,
+			"_Name": "to_RetsMgmtCompnProcgStatus",
+			"_Type": "I_RetsMgmtCompnProcgStatusType"
+		},
+		{
+			"Key": false,
+			"_Name": "to_RetsMgmtProcgStatus",
+			"_Type": "I_RetsMgmtProcgStatusType"
+		},
+		{
+			"Key": false,
+			"_Name": "to_SalesGroup",
+			"_Type": "I_SalesGroupType"
+		},
+		{
+			"Key": false,
+			"_Name": "to_SalesOffice",
+			"_Type": "I_SalesOfficeType"
+		},
+		{
+			"Key": false,
+			"_Name": "to_SalesOrganization",
+			"_Type": "I_SalesOrganizationType"
+		}
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "CustomerReturn",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "SoldToParty",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "RetsMgmtProcess",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CustomerReturnDate",
+			"_Type": "Edm.DateTime"
+		},
+		{
+			"Key": false,
+			"_Name": "RetsMgmtCompnProcgStatus",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "RetsMgmtLogProcgStatus",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "TotalNetAmount",
+			"_Type": "Edm.Decimal"
+		},
+		{
+			"Key": false,
+			"_Name": "TransactionCurrency",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CustomerReturnType",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ReferenceSDDocument",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "SalesOrganization",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "DistributionChannel",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "OrganizationDivision",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "SalesOffice",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "SalesGroup",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "OverallSDProcessStatus",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CreatedByUser",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "LastChangedByUser",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/BasicMDKApp/Services/BirlasoftS17.service",
+	"_Name": "C_Customer360_ReturnsType"
+}

@@ -1,0 +1,126 @@
+{
+	"Collection": [
+		"C_Customer360_F2187"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "to_CreditMemoRequests",
+			"_Type": "Collection(C_CreditMemoRequestWl_F1989Type)"
+		},
+		{
+			"Key": false,
+			"_Name": "to_CustomerClassification",
+			"_Type": "Collection(I_CustomerClassificationTextType)"
+		},
+		{
+			"Key": false,
+			"_Name": "to_CustomerContact",
+			"_Type": "Collection(C_Customer360_ContactopType)"
+		},
+		{
+			"Key": false,
+			"_Name": "to_DebitMemoRequests",
+			"_Type": "Collection(C_DebitMemoRequestWl_F1988Type)"
+		},
+		{
+			"Key": false,
+			"_Name": "to_Invoices",
+			"_Type": "Collection(C_BillingDocument_F2187Type)"
+		},
+		{
+			"Key": false,
+			"_Name": "to_Issues",
+			"_Type": "Collection(C_Customer360_IssuesType)"
+		},
+		{
+			"Key": false,
+			"_Name": "to_Returns",
+			"_Type": "Collection(C_Customer360_ReturnsType)"
+		},
+		{
+			"Key": false,
+			"_Name": "to_SalesArea",
+			"_Type": "Collection(C_Customer360_SalesareaType)"
+		},
+		{
+			"Key": false,
+			"_Name": "to_SalesContracts",
+			"_Type": "Collection(C_SalesContractWl_F1851Type)"
+		},
+		{
+			"Key": false,
+			"_Name": "to_SalesOrders",
+			"_Type": "Collection(C_SalesOrderWl_F1873Type)"
+		},
+		{
+			"Key": false,
+			"_Name": "to_SalesQuotations",
+			"_Type": "Collection(C_QuotationWl_F1852Type)"
+		}
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "Customer",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "BusinessPartnerUUID",
+			"_Type": "Edm.Guid"
+		},
+		{
+			"Key": false,
+			"_Name": "BusinessPartner",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CustomerName",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "AuthorizationGroup",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CustomerAccountGroup",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CustomerFullName",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "EmailAddress",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "InternationalPhoneNumber",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CustomerClassification",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CustomerClassification_Text",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "BusinessPartnerImageURL",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/BasicMDKApp/Services/BirlasoftS17.service",
+	"_Name": "C_Customer360_F2187Type"
+}

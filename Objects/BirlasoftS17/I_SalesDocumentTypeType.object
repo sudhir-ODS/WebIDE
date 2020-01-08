@@ -1,0 +1,44 @@
+{
+	"Collection": [
+		"I_SalesDocumentType"
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "SalesDocumentType",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "SalesDocumentType_Text",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "SDDocumentCategory",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "SalesDocumentProcessingType",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ScreenSequenceGroup",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "OrderTypeForBillingRequest",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "RetsMgmtIsActive",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/BasicMDKApp/Services/BirlasoftS17.service",
+	"_Name": "I_SalesDocumentTypeType"
+}

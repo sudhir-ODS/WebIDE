@@ -1,0 +1,19 @@
+{
+	"Collection": [
+		"I_PriceListType"
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "PriceListType",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PriceListType_Text",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/BasicMDKApp/Services/BirlasoftS17.service",
+	"_Name": "I_PriceListTypeType"
+}

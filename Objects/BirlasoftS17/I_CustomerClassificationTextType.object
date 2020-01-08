@@ -1,0 +1,24 @@
+{
+	"Collection": [
+		"I_CustomerClassificationText"
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "CustomerClassification",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "Language",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CustomerClassificationDesc",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/BasicMDKApp/Services/BirlasoftS17.service",
+	"_Name": "I_CustomerClassificationTextType"
+}

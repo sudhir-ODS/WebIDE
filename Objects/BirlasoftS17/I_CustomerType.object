@@ -1,0 +1,279 @@
+{
+	"Collection": [
+		"I_Customer"
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "Customer",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CustomerName",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CustomerFullName",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CreatedByUser",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CreationDate",
+			"_Type": "Edm.DateTime"
+		},
+		{
+			"Key": false,
+			"_Name": "AddressID",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CustomerClassification",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "VATRegistration",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CustomerAccountGroup",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "AuthorizationGroup",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "DeliveryIsBlocked",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PostingIsBlocked",
+			"_Type": "Edm.Boolean"
+		},
+		{
+			"Key": false,
+			"_Name": "BillingIsBlockedForCustomer",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "OrderIsBlockedForCustomer",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "InternationalLocationNumber1",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "IsOneTimeAccount",
+			"_Type": "Edm.Boolean"
+		},
+		{
+			"Key": false,
+			"_Name": "TaxJurisdiction",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Industry",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "TaxNumberType",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "TaxNumber1",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "TaxNumber2",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "TaxNumber3",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "TaxNumber4",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "TaxNumber5",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CustomerCorporateGroup",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Supplier",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "NielsenRegion",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "IndustryCode1",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "IndustryCode2",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "IndustryCode3",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "IndustryCode4",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "IndustryCode5",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Country",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "OrganizationBPName1",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "OrganizationBPName2",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CityName",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PostalCode",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "StreetName",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "SortField",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "FaxNumber",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "BR_SUFRAMACode",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Region",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "AlternativePayerAccount",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "DataMediumExchangeIndicator",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "VATLiability",
+			"_Type": "Edm.Boolean"
+		},
+		{
+			"Key": false,
+			"_Name": "IsBusinessPurposeCompleted",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ResponsibleType",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "FiscalAddress",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "NFPartnerIsNaturalPerson",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "DeletionIndicator",
+			"_Type": "Edm.Boolean"
+		},
+		{
+			"Key": false,
+			"_Name": "Language",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "TaxInvoiceRepresentativeName",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "BusinessType",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "IndustryType",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/BasicMDKApp/Services/BirlasoftS17.service",
+	"_Name": "I_CustomerType"
+}
